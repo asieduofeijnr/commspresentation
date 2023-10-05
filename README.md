@@ -8,13 +8,13 @@ This Python project demonstrates the concept of linear regression using the `plo
 
 Linear regression is a statistical method used for modeling the relationship between a dependent variable (in this case, InfctRsk) and one or more independent variables (in this case, Stay). It assumes a linear relationship between the variables, which can be represented as:
 
-InfctRsk = m * Stay + b
+InfctRsk = Bo + B1 * Stay
 
 
 - `InfctRsk`: The dependent variable we want to predict (infection risk).
 - `Stay`: The independent variable (length of stay).
-- `m`: The slope of the line (the change in InfctRsk for a unit change in Stay).
-- `b`: The y-intercept (the value of InfctRsk when Stay is zero).
+- `B1`: The slope of the line (the change in InfctRsk for a unit change in Stay).
+- `Bo`: The y-intercept (the value of InfctRsk when Stay is zero).
 
 ## Code Explanation
 
